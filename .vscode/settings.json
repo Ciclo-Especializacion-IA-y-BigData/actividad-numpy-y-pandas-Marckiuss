@@ -1,4 +1,7 @@
 {
+  // Ruta al binario de git para que VS Code lo encuentre en el contenedor
+  "git.path": "/usr/bin/git",
+  "git.enabled": true,
   // Configuración por defecto para el entorno de desarrollo del módulo.
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": [
